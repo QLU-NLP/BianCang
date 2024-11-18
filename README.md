@@ -250,7 +250,6 @@ streamlit run web_ui.py
 
 ## 🥇中医能力测试
 
-
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
@@ -280,15 +279,15 @@ streamlit run web_ui.py
     <tr><td>Qwen2.5-14B</td><td>35.62</td><td>25.21</td><td>33.93</td><td>30.13</td><td>24.33</td><td>36.64</td><td>33.33</td><td>32.80</td><td>86.59</td><td>89.93</td><td>87.10</td><td>90.06</td></tr>
     <tr><td>Qwen2.5-14B-Instruct</td><td>25.94</td><td>35.03</td><td>16.07</td><td>60.00</td><td>38.30</td><td>49.31</td><td>46.27</td><td>53.67</td><td>82.25</td><td>84.81</td><td>81.79</td><td>85.68</td></tr>
     <tr><td>BianCang-Qwen2-7B</td><td>42.14</td><td>30.30</td><td>57.80</td><td>48.00</td><td>43.73</td><td>54.67</td><td>74.73</td><td>80.67</td><td>90.86</td><td>91.87</td><td>89.08</td><td>90.36</td></tr>
-    <tr><td>BianCang-Qwen2-7B-Instruct</td><td>68.88</td><td>75.96</td><td>57.33</td><td>75.40</td><td>64.42</td><td>77.71</td><td>89.07</td><td>85.67</td><td>92.39</td><td>92.39</td><td>91.14</td><td>91.48</td></tr>
+    <tr><td>BianCang-Qwen2-7B-Instruct</td><td>68.88</td><td>75.96</td><td>57.33</td><td>75.40</td><td>64.42</td><td>77.71</td><td><b>89.07</b></td><td>85.67</td><td><b>92.39</b></td><td><b>92.39</b></td><td>91.14</td><td>91.48</td></tr>
     <tr><td>BianCang-Qwen2.5-7B</td><td>46.57</td><td>26.72</td><td>52.93</td><td>45.47</td><td>49.80</td><td>53.15</td><td>68.13</td><td>61.73</td><td>86.46</td><td>86.30</td><td>83.93</td><td>85.35</td></tr>
-    <tr><td>BianCang-Qwen2.5-7B-Instruct</td><td>79.80</td><td>82.10</td><td>66.73</td><td>77.73</td><td>73.73</td><td>82.65</td><td>87.87</td><td>89.40</td><td>90.22</td><td>90.57</td><td>90.32</td><td>90.62</td></tr>
+    <tr><td>BianCang-Qwen2.5-7B-Instruct</td><td>78.90</td><td><b>82.10</b></td><td><b>66.73</b></td><td><b>77.73</b></td><td>73.73</td><td><b>82.65</b></td><td>87.87</td><td><b>89.40</b></td><td>90.22</td><td>90.57</td><td>90.32</td><td>90.62</td></tr>
     <tr><td>BianCang-Qwen2.5-14B</td><td>43.77</td><td>33.96</td><td>61.93</td><td>53.47</td><td>66.61</td><td>60.39</td><td>82.93</td><td>77.07</td><td>89.28</td><td>90.86</td><td>89.42</td><td>90.58</td></tr>
-    <tr><td>BianCang-Qwen2.5-14B-Instruct</td><td>79.38</td><td>75.54</td><td>62.27</td><td>70.73</td><td>77.63</td><td>82.05</td><td>86.33</td><td>88.73</td><td>92.29</td><td>92.29</td><td>92.75</td><td>92.86</td></tr>
+    <tr><td>BianCang-Qwen2.5-14B-Instruct</td><td><b>79.38</b></td><td>75.54</td><td>62.27</td><td>70.73</td><td><b>77.63</b></td><td>82.05</td><td>86.33</td><td>88.73</td><td>92.29</td><td>92.29</td><td><b>92.75</b></td><td><b>92.86</b></td></tr>
   </tbody>
 </table>
-<br>
 
+<br>
 
 <table border="1">
   <tr>
@@ -394,7 +393,7 @@ streamlit run web_ui.py
     <td>94.35</td>
     <td>94.35</td>
     <td>91.37</td>
-    <td>91.64</td>
+    <td><b>91.64</b></td>
     <td>89.19</td>
     <td>90.02</td>
   </tr>
@@ -420,7 +419,7 @@ streamlit run web_ui.py
   </tr>
   <tr>
     <td>BianCang-Qwen2.5-14B (Ours)</td>
-    <td>84.34</td>
+    <td><b>84.34</b></td>
     <td>91.70</td>
     <td>93.37</td>
     <td>87.92</td>
@@ -431,14 +430,15 @@ streamlit run web_ui.py
   <tr>
     <td>BianCang-Qwen2.5-14B-Instruct (Ours)</td>
     <td>83.80</td>
-    <td>94.74</td>
-    <td>94.97</td>
-    <td>91.86</td>
+    <td><b>94.74</b></td>
+    <td><b>94.97</b></td>
+    <td><b>91.86</b></td>
     <td>91.53</td>
-    <td>90.43</td>
-    <td>90.51</td>
+    <td><b>90.43</b></td>
+    <td><b>90.51</b></td>
   </tr>
 </table>
+
 
 更多测评结果请关注我们的技术报告。
 
@@ -500,4 +500,8 @@ streamlit run web_ui.py
   year={2024}
 }
 ```
+
+> [!TIP]
+>
+> 如果对本项目有任何疑问或建议，欢迎垂询：魏斯博(sibo.wei@foxmail.com)、鹿文鹏(wenpeng.lu@qlu.edu.cn)。
 
