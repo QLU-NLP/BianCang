@@ -5,10 +5,6 @@
     <img src="assets/BianCang-logo.png" width="500px"/>
     </p>
     </div>
-
-
-
-
 <p align="center">
 💻 <a href="" target="_blank">在线体验（待开放）</a> ｜⬇️ <a href="https://huggingface.co/QLU-NLP" target="_blank">HuggingFace模型下载</a> ｜⬇️ <a href="https://www.modelscope.cn/profile/QLUNLP" target="_blank">ModelScope模型下载</a>  ｜ 📃 <a href="" target="_blank">Paper</a> <br>
 </p>
@@ -46,10 +42,10 @@
 
 | 模型                         | 基座                | 链接                                                         |
 | ---------------------------- | ------------------- | ------------------------------------------------------------ |
-| BianCang-Qwen2-7B            | Qwen2-7B            | [HF]([QLU-NLP/BianCang-Qwen2-7B · Hugging Face](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)) |
-| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [HF]([QLU-NLP/BianCang-Qwen2-7B-Instruct · Hugging Face](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct)) |
-| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [HF]([QLU-NLP/BianCang-Qwen2.5-7B · Hugging Face](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)) |
-| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [HF]([QLU-NLP/BianCang-Qwen2.5-7B-Instruct · Hugging Face](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct)) |
+| BianCang-Qwen2-7B            | Qwen2-7B            | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)       |
+| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct) |
+| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)     |
+| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) |
 
 也可以在ModelScope上下载扁仓的模型权重，这对国内网络更友好：
 
@@ -468,24 +464,25 @@ streamlit run web_ui.py
 
 本项目由齐鲁工业大学（山东省科学院）计算学部（国家超级计算济南中心）自然语言处理与认知计算团队、山东~~省~~中医药大学附属医院临床研究中心合作完成。
 
+<div align="center">
 <p>
     <img src="assets/QLU-NLP-logo.png" width="500px"/>
     </p>
+</div>
 
 
+<div align="center">
+    <p>
+        <img src="assets/超算logo.png" width="500px"/>
+    </p>
+</div>
 
 <p>
-    <img src="assets/超算logo.png" width="500px"/>
-</p>
-
-
-
+<div align="center">
 <p>
-    <img src="assets/山中医logo.png" width="500px"/>
-</p>
-
-
-
+    <img src="assets/山中医logo.png" width="500px"/> 
+    </p>   
+</div>
 
 ## ❕免责声明
 
