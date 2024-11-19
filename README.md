@@ -496,7 +496,7 @@ streamlit run web_ui.py
 @article{Wei2024BianCang,
   title={BianCang: A Traditional Chinese Medicine Large Language Model},
   author={Sibo, Wei and  Xueping, Peng and Yi-fei, Wang and Jiasheng, Si and Weiyu, Zhang and Wenpeng, Lu and Xiaoming, Wu and Yinglong, Wang},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2411.11027},
   year={2024}
 }
 ```
