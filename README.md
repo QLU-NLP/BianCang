@@ -6,9 +6,8 @@
     </p>
     </div>
 <p align="center">
-💻 <a href="" target="_blank">在线体验（待开放）</a> ｜⬇️ <a href="https://huggingface.co/QLU-NLP" target="_blank">HuggingFace模型下载</a> ｜⬇️ <a href="https://www.modelscope.cn/profile/QLUNLP" target="_blank">ModelScope模型下载</a>  ｜ 📃 <a href="" target="_blank">Paper</a> <br>
+💻 <a href="" target="_blank">在线体验（待开放）</a> ｜⬇️ <a href="https://huggingface.co/QLU-NLP" target="_blank">HuggingFace模型下载</a> ｜⬇️ <a href="https://www.modelscope.cn/profile/QLUNLP" target="_blank">ModelScope模型下载</a>  ｜ 📃 <a href="https://arxiv.org/abs/2411.11027" target="_blank">Paper</a> <br>
 </p>
-
 
 ## 🎉新闻
 
