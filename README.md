@@ -433,6 +433,11 @@ streamlit run web_ui.py
   </tr>
 </table>
 
+<div align="center">
+<p>
+    <img src="assets/subjective.png"/>
+    </p>
+</div>
 
 更多测评结果请关注我们的技术报告。
 
