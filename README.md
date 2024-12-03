@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/860593dc-0fc3-42d5-867a-46723e0f12ae)# 扁仓中医大模型（BianCang: A Traditional Chinese Medicine Large Language Model）
+# 扁仓中医大模型（BianCang: A Traditional Chinese Medicine Large Language Model）
 
 <div align="center">
     <p>
