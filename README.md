@@ -82,7 +82,7 @@ from swift.utils import seed_everything
 model_type = ModelType.qwen2_5_7b_instruct
 template_type = 'qwen'
 
-model_id_or_path = 'QLU-NLP/BianCang-Qwen2.5-7B-Instruct'
+model_id_or_path = 'BianCang-Qwen2.5-7B-Instruct'
 model, tokenizer = get_model_tokenizer(model_type, model_id_or_path=model_id_or_path, model_kwargs={'device_map': 'auto'})
 model.generation_config.max_new_tokens = 256
 
@@ -114,7 +114,7 @@ history: [['你好，你是谁？', '你好！我是一个名为扁仓中医大�
 使用以下命令部署API：
 
 ```shell
-CUDA_VISIBLE_DEVICES=0 swift deploy --model_type qwen2_5-7b-instruct --model_id_or_path QLU-NLP/BianCang-Qwen2.5-7B-Instruct --port 8090 --template_type qwen
+CUDA_VISIBLE_DEVICES=0 swift deploy --model_type qwen2_5-7b-instruct --model_id_or_path BianCang-Qwen2.5-7B-Instruct --port 8090 --template_type qwen
 ```
 
 使用curl进行测试：
@@ -185,7 +185,7 @@ response: 根据中医的诊断方法，患者患有胸痹心痛，中医证型�
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "QLU-NLP/BianCang-Qwen2.5-7B-Instruct"
+model_name = "BianCang-Qwen2.5-7B-Instruct"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -232,7 +232,7 @@ pip install streamlit
 使用SWIFT部署API：
 
 ```shell
-CUDA_VISIBLE_DEVICES=0 swift deploy --model_type qwen2_5-7b-instruct --model_id_or_path QLU-NLP/BianCang-Qwen2.5-7B-Instruct --port 8090 --template_type qwen
+CUDA_VISIBLE_DEVICES=0 swift deploy --model_type qwen2_5-7b-instruct --model_id_or_path BianCang-Qwen2.5-7B-Instruct --port 8090 --template_type qwen
 ```
 
 启动streamlit：
