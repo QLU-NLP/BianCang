@@ -1,20 +1,16 @@
-# 扁仓中医大模型（BianCang: A Traditional Chinese Medicine Large Language Model）
+![image](https://github.com/user-attachments/assets/860593dc-0fc3-42d5-867a-46723e0f12ae)# 扁仓中医大模型（BianCang: A Traditional Chinese Medicine Large Language Model）
 
 <div align="center">
     <p>
     <img src="assets/BianCang-logo.png" width="500px"/>
     </p>
     </div>
-<p align="center">
-💻 <a href="" target="_blank">在线体验（待开放）</a> ｜⬇️ <a href="https://huggingface.co/QLU-NLP" target="_blank">HuggingFace模型下载</a> ｜⬇️ <a href="https://www.modelscope.cn/profile/QLUNLP" target="_blank">ModelScope模型下载</a>  ｜ 📃 <a href="https://arxiv.org/abs/2411.11027" target="_blank">Paper</a> <br>
-</p>
+
 
 ## 🎉新闻
 
 - [11/18/2024] 我们在该仓库发布了扁仓系列模型，包括BianCang-Qwen2-7B、BianCang-Qwen2-7B-Instruct、BianCang-Qwen2.5-7B、BianCang-Qwen2.5-7B-Instruct。
 - [11/18/2024] 我们公开了ChP-TCM数据集。
-- [11/18/2024] 我们发布了扁仓论文。扁仓在中医领域取得了当前最先进的结果。
-- [10/28/2024] 10月28日，“[超级计算 智创未来](https://mp.weixin.qq.com/s/vN-FbmvksRT79Ci9p3RTLg)”顶尖科学家论坛在山东济南举行。会议期间，刘大响、陈润生、张宏科、王军成、曹进德、董勤喜六位院士共同登台发布国家超算济南中心系列大模型，其中包括“扁仓中医大模型”。山东新闻联播、大众日报、济南日报、济南新闻联播等媒体进行了详细报道。
 
 ## 📅未来规划
 
@@ -41,19 +37,19 @@
 
 | 模型                         | 基座                | 链接                                                         |
 | ---------------------------- | ------------------- | ------------------------------------------------------------ |
-| BianCang-Qwen2-7B            | Qwen2-7B            | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)       |
-| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct) |
-| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)     |
-| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) |
+| BianCang-Qwen2-7B            | Qwen2-7B            | [anonymous] |
+| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [anonymous] |
+| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [anonymous] |
+| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [anonymous] |
 
 也可以在ModelScope上下载扁仓的模型权重，这对国内网络更友好：
 
 | 模型                         | 基座                | 链接                                                         |
 | ---------------------------- | ------------------- | ------------------------------------------------------------ |
-| BianCang-Qwen2-7B            | Qwen2-7B            | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
-| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2-7B-Instruct) |
-| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
-| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B-Instruct) |
+| BianCang-Qwen2-7B            | Qwen2-7B            | [anonymous] |
+| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [anonymous] |
+| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [anonymous] |
+| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [anonymous] |
 
 ## 🚀推理
 
@@ -107,10 +103,10 @@ print(f'history: {history}')
 
 ```
 query: 你好，你是谁？
-response: 你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？
+response: 你好！我是一个名为扁仓中医大模型的人工智能，由[anonymous]研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？
 query: 下面是一名患者的基本情况。年龄：78岁，性别：女。主 诉：活动后胸痛一周。现病史：患者一周前活动后出现胸口隐隐作痛，如针刺样乏力气短，活动后汗出，偏头痛。中医望闻切诊：表情自然，面色红润，形体正常,语气清,气息平；无异常气味,舌暗红，苔少。请你根据上述患者的主诉、病史和中医望闻切诊情况，判断该患者的主要中医疾病和中医证型，并给出中医辨病辨证的依据。
 response: 根据中医的诊断方法，患者患有胸痹心痛，中医证型属于气虚血瘀证。综合脉证，四诊合参，本病当属祖国医学“胸痹心痛病”范畴，证属“气虚血瘀”。患者素体虚弱，久病伤正，伤及心气，心气衰微，机能不健，致阴邪易于上乘阳位，况心脉为宗气之所，百脉朝会之枢，宗气的鼓动形成了心气推动血液运行全身，心气不足则血行无力瘀滞，发为本病，舌脉俱为佐证。
-history: [['你好，你是谁？', '你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？'], ['下面是一名患者的基本情况。年龄：78岁，性别：女。主 诉：活动后胸痛一周。现病史：患者一周前活动后出现胸口隐隐作痛，如针刺样乏力气短，活动后汗出，偏头痛。中医望闻切诊：表情自然，面色红润，形体正常,语气清,气息平；无异常气味,舌暗红，苔少。请你根据上述患者的主诉、病史和中医望闻切诊情况，判断该患者的主要中医疾病和中医证型，并给出中医辨病辨证的依据。', '根据中医的诊断方法，患者患有胸痹心痛，中医证型属于气虚血瘀证。综合脉证，四诊合参，本病当属祖国医学“胸痹心痛病”范畴，证属“气虚血瘀”。患者素体虚弱，久病伤正，伤及心气，心气衰微，机能不健，致阴邪易于上乘阳位，况心脉为宗气之所，百脉朝会之枢，宗气的鼓动形成了心气推动血液运行全身，心气不足则血行无力瘀滞，发为本病，舌脉俱为佐证。']]
+history: [['你好，你是谁？', '你好！我是一个名为扁仓中医大模型的人工智能，由[anonymous]研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？'], ['下面是一名患者的基本情况。年龄：78岁，性别：女。主 诉：活动后胸痛一周。现病史：患者一周前活动后出现胸口隐隐作痛，如针刺样乏力气短，活动后汗出，偏头痛。中医望闻切诊：表情自然，面色红润，形体正常,语气清,气息平；无异常气味,舌暗红，苔少。请你根据上述患者的主诉、病史和中医望闻切诊情况，判断该患者的主要中医疾病和中医证型，并给出中医辨病辨证的依据。', '根据中医的诊断方法，患者患有胸痹心痛，中医证型属于气虚血瘀证。综合脉证，四诊合参，本病当属祖国医学“胸痹心痛病”范畴，证属“气虚血瘀”。患者素体虚弱，久病伤正，伤及心气，心气衰微，机能不健，致阴邪易于上乘阳位，况心脉为宗气之所，百脉朝会之枢，宗气的鼓动形成了心气推动血液运行全身，心气不足则血行无力瘀滞，发为本病，舌脉俱为佐证。']]
 ```
 
 #### 推理方式2-部署API
@@ -138,7 +134,7 @@ curl http://localhost:8090/v1/chat/completions \
 
 ```json
 {"model":"qwen2_5-7b-instruct",
-"choices":[{"index":0,"message":{"role":"assistant","content":"你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？",
+"choices":[{"index":0,"message":{"role":"assistant","content":"你好！我是一个名为扁仓中医大模型的人工智能，由[anonymous]研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？",
 "tool_calls":null},"finish_reason":null,"logprobs":null}],
 "usage":{"prompt_tokens":24,"completion_tokens":92,"total_tokens":116},
 "id":"chatcmpl-6b4a02dee57a42238b27b5c40085df16",
@@ -177,7 +173,7 @@ print()
 ```
 model_type: qwen2_5-7b-instruct
 query: 你好，你是谁？
-response: 你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？
+response: 你好！我是一个名为扁仓中医大模型的人工智能，由[anonymous]研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？
 query: 下面是一名患者的基本情况。年龄：78岁，性别：女。主 诉：活动后胸痛一周。现病史：患者一周前活动后出现胸口隐隐作痛，如针刺样乏力气短，活动后汗出，偏头痛。中医望闻切诊：表情自然，面色红润，形体正常,语气清,气息平；无异常气味,舌暗红，苔少。请你根据上述患者的主诉、病史和中医望闻切诊情况，判断该患者的主要中医疾病和中医证型，并给出中医辨病辨证的依据。
 response: 根据中医的诊断方法，患者患有胸痹心痛，中医证型属于气虚血瘀证。综合脉证，四诊合参，本病当属祖国医学“胸痹心痛病”范畴，证属“气虚血瘀”。患者素体虚弱，久病伤正，伤及心气，心气衰微，机能不健，致阴邪易于上乘阳位，况心脉为宗气之所，百脉朝会之枢，宗气的鼓动形成了心气推动血液运行全身，心气不足则血行无力瘀滞，发为本病，舌脉俱为佐证。
 ```
@@ -245,7 +241,6 @@ CUDA_VISIBLE_DEVICES=0 swift deploy --model_type qwen2_5-7b-instruct --model_id_
 streamlit run web_ui.py
 ```
 
-![image-20241029215908096](assets/webui.png)
 
 ## 🥇中医能力测试
 
