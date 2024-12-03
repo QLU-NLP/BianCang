@@ -459,29 +459,6 @@ streamlit run web_ui.py
 - [APE210k](https://github.com/Chenny0808/ape210k)
 - [Evol-Instruction-66K](https://github.com/Continuum-Labs-HQ/EvolInstruct)
 
-## ❔关于我们
-
-本项目由齐鲁工业大学（山东省科学院）计算学部（国家超级计算济南中心）自然语言处理与认知计算团队、山东~~省~~中医药大学附属医院临床研究中心合作完成。
-
-<div align="center">
-<p>
-    <img src="assets/QLU-NLP-logo.png" width="500px"/>
-    </p>
-</div>
-
-
-<div align="center">
-    <p>
-        <img src="assets/超算logo.png" width="500px"/>
-    </p>
-</div>
-
-<p>
-<div align="center">
-<p>
-    <img src="assets/山中医logo.png" width="500px"/> 
-    </p>   
-</div>
 
 ## ❕免责声明
 
@@ -489,18 +466,5 @@ streamlit run web_ui.py
 - 扁仓中医大模型作为基于语言模型的智能助手，具有局限性，无法保证所有响应的准确性，其不能代替中医/西医进行医学诊断和给出医学建议。如有需要，请咨询专业医生或前往医院就诊。
 - 由于医疗领域的数据不准确可能造成严重后果，我们强烈建议用户在处理生成的信息时要小心谨慎，并向专家寻求建议。
 
-## 📖引用
 
-```
-@article{Wei2024BianCang,
-  title={BianCang: A Traditional Chinese Medicine Large Language Model},
-  author={Sibo, Wei and  Xueping, Peng and Yi-fei, Wang and Jiasheng, Si and Weiyu, Zhang and Wenpeng, Lu and Xiaoming, Wu and Yinglong, Wang},
-  journal={arXiv preprint arXiv:2411.11027},
-  year={2024}
-}
-```
-
-> [!TIP]
->
-> 如果对本项目有任何疑问或建议，欢迎垂询：魏斯博(sibo.wei@foxmail.com)、鹿文鹏(wenpeng.lu@qlu.edu.cn)。
 
