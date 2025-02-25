@@ -6,76 +6,76 @@
     </p>
     </div>
 <p align="center">
-💻 <a href="" target="_blank">在线体验（待开放）</a> ｜⬇️ <a href="https://huggingface.co/QLU-NLP" target="_blank">HuggingFace模型下载</a> ｜⬇️ <a href="https://www.modelscope.cn/profile/QLUNLP" target="_blank">ModelScope模型下载</a>  ｜ 📃 <a href="https://arxiv.org/abs/2411.11027" target="_blank">Paper</a> <br>
+💻 <a href="" target="_blank">Online Experience (to be opened)</a> ｜⬇️ <a href="https://huggingface.co/QLU-NLP" target="_blank">HuggingFace Download</a> ｜⬇️ <a href="https://www.modelscope.cn/profile/QLUNLP" target="_blank">ModelScope Download</a>  ｜ 📃 <a href="https://arxiv.org/abs/2411.11027" target="_blank">Paper</a> <br>
 </p>
+
 <div align="center">
-  🌐 <a href="README.md">zh</a> | <a href="README-en.md">en</a>
+  🌐<a href="README.md">zh</a> | <a href="README-en.md">en</a>
 </div>
 
-## 🎉新闻
+## 🎉News
 
-- [11/18/2024] 我们在该仓库发布了扁仓系列模型，包括BianCang-Qwen2-7B、BianCang-Qwen2-7B-Instruct、BianCang-Qwen2.5-7B、BianCang-Qwen2.5-7B-Instruct。
-- [11/18/2024] 我们公开了ChP-TCM数据集。
-- [11/18/2024] 我们发布了扁仓论文。扁仓在中医领域取得了当前最先进的结果。
-- [10/28/2024] 10月28日，“[超级计算 智创未来](https://mp.weixin.qq.com/s/vN-FbmvksRT79Ci9p3RTLg)”顶尖科学家论坛在山东济南举行。会议期间，刘大响、陈润生、张宏科、王军成、曹进德、董勤喜六位院士共同登台发布国家超算济南中心系列大模型，其中包括“扁仓中医大模型”。山东新闻联播、大众日报、济南日报、济南新闻联播等媒体进行了详细报道。
+- [11/18/2024] We released the BianCang series models in this repository, including BianCang-Qwen2-7B, BianCang-Qwen2-7B-Instruct, BianCang-Qwen2.5-7B, and BianCang-Qwen2.5-7B-Instruct.
+- [11/18/2024] We made the ChP-TCM dataset publicly available.
+- [11/18/2024] We published the BianCang technical report. BianCang has achieved state-of-the-art results in the field of Traditional Chinese Medicine.
+- [10/28/2024] On October 28th, the "Supercomputing, Intelligent Creation of the Future" Top Scientists Forum was held in Jinan, Shandong. During the conference, six academicians, including Daxiang Liu, Runsheng Chen, Hongke Zhang, Juncheng Wang, Jinde Cao, and Qinxi Dong, jointly released a series of large language models from the National Supercomputing Center in Jinan, including the "BianCang Traditional Chinese Medicine Large Language Model". Detailed reports were covered by Shandong News, Dazhong Daily, Jinan Daily, and Jinan News.
 
-## 📅未来规划
+## 📅Future Plans
 
-- [ ] 开源BianCang-Qwen2.5-14B、BianCang-Qwen2.5-14B-Instruct。
+- [ ] Open-source BianCang-Qwen2.5-14B and BianCang-Qwen2.5-14B-Instruct.
 
-## 💡介绍
+## 💡Introduction
 
-你好，欢迎来到扁仓中医大模型的开源仓库。
+Hello, welcome to the open-source repository of the BianCang Traditional Chinese Medicine Large Language Model.
 
-为推动大语言模型在传统中医领域的落地应用，辅助医生进行疾病诊断，辅助患者进行自我评估，推动大模型赋能传统中医，我们在该仓库推出了**扁仓**系列中医大模型。扁仓是古代名医扁鹊、仓公的并称，泛指名医。我们期待扁仓中医大模型能够在延续中医传承和提升我国人民医疗健康水平方面做出一定的贡献。
+To promote the application of large language models in the field of Traditional Chinese Medicine (TCM), assist doctors in disease diagnosis, help patients with self-assessment, and empower TCM with large language models, we have launched the **BianCang** series of TCM large language models in this repository. BianCang is named after the ancient famous physicians Bian Que and Cang Gong, symbolizing renowned doctors. We hope that the BianCang TCM Large Language Model can contribute to the continuation of TCM heritage and the improvement of healthcare in China.
 
-扁仓以Qwen2/2.5作为基座，采用先注入领域知识再进行知识激活和对齐的两阶段训练方法而得到。扁仓在中医辨病辨证等中医特色任务上取得了最先进的性能，并且在各种医学执照考试中表现优异。
+BianCang is based on Qwen2/2.5 and is developed using a two-stage training method: first injecting domain knowledge, then activating and aligning the knowledge. BianCang has achieved state-of-the-art performance in TCM-specific tasks such as disease diagnosis and syndrome differentiation, and has performed excellently in various medical licensing exams.
 
-我们在该仓库中开源以下资源：
+In this repository, we open-source the following resources:
 
-- 扁仓基座模型权重：包括BianCang-Qwen2-7B、BianCang-Qwen2.5-7B。
+- BianCang base model weights: including BianCang-Qwen2-7B and BianCang-Qwen2.5-7B.
+- BianCang instruction-tuned model weights: including BianCang-Qwen2-7B-Instruct and BianCang-Qwen2.5-7B-Instruct.
 
-- 扁仓指令精调模型权重：包括BianCang-Qwen2-7B-Instruct、BianCang-Qwen2.5-7B-Instruct。
 
+## 🤖Models
 
-## 🤖模型
+You can download BianCang's model weights from Huggingface:
 
-你可以在Huggingface上下载扁仓的模型权重：
-
-| 模型                         | 基座                | 链接                                                         |
+| Model                        | Base                | Link                                                         |
 | ---------------------------- | ------------------- | ------------------------------------------------------------ |
 | BianCang-Qwen2-7B            | Qwen2-7B            | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)       |
 | BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct) |
 | BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)     |
 | BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) |
 
-也可以在ModelScope上下载扁仓的模型权重，这对国内网络更友好：
+You can also download BianCang's model weights from ModelScope:
 
-| 模型                         | 基座                | 链接                                                         |
+| Model                        | Base                | Link                                                         |
 | ---------------------------- | ------------------- | ------------------------------------------------------------ |
 | BianCang-Qwen2-7B            | Qwen2-7B            | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
 | BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2-7B-Instruct) |
 | BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
 | BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B-Instruct) |
 
-## 🚀推理
+## 🚀Inference
 
-### 使用SWIFT
+### Using SWIFT
 
-#### 环境安装
+#### Environment Setup
 
-在[Release v2.4.2 · modelscope/ms-swift](https://github.com/modelscope/ms-swift/releases/tag/v2.4.2)处下载SWIFT源码，切换到对应目录，然后执行安装命令：
+Download the SWIFT source code from [Release v2.4.2 · modelscope/ms-swift](https://github.com/modelscope/ms-swift/releases/tag/v2.4.2), switch to the corresponding directory, and execute the installation command:
 
 ```shell
 cd swift
 pip install -e .
 ```
 
-你可以根据自己的GPU驱动版本去选择合适的torch版本进行替换，SWIFT至少需要torch >= 1.13，推荐torch >= 2.0.0。
+You can choose the appropriate torch version based on your GPU driver version. SWIFT requires at least torch >= 1.13, and torch >= 2.0.0 is recommended.
 
-注意：由于我们进行SFT训练时使用的Chat Template为*qwen*，因此如果你使用的SWIFT版本大于我们提供的版本，可能会遇到Qwen2.5 Chat Template不对应的问题，请手动将Chat Template指定为*qwen*而不是*qwen2_5*。具体原因参考：[fix qwen2.5 template by Jintao-Huang · Pull Request #2081 · modelscope/ms-swift](https://github.com/modelscope/ms-swift/pull/2081)
+Note: Since we used the *qwen* Chat Template during SFT training, if you use a SWIFT version higher than the one we provided, you may encounter issues with the Qwen2.5 Chat Template not matching. Please manually specify the Chat Template as *qwen* instead of *qwen2_5*. For details, refer to: [fix qwen2.5 template by Jintao-Huang · Pull Request #2081 · modelscope/ms-swift](https://github.com/modelscope/ms-swift/pull/2081)
 
-#### 推理方式1-代码推理
+#### Inference Method 1 - Code Inference
 
 ```python
 import os
@@ -106,25 +106,15 @@ print(f'response: {response}')
 print(f'history: {history}')
 ```
 
-输出：
+#### Inference Method 2 - Deploy API
 
-```
-query: 你好，你是谁？
-response: 你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？
-query: 下面是一名患者的基本情况。年龄：78岁，性别：女。主 诉：活动后胸痛一周。现病史：患者一周前活动后出现胸口隐隐作痛，如针刺样乏力气短，活动后汗出，偏头痛。中医望闻切诊：表情自然，面色红润，形体正常,语气清,气息平；无异常气味,舌暗红，苔少。请你根据上述患者的主诉、病史和中医望闻切诊情况，判断该患者的主要中医疾病和中医证型，并给出中医辨病辨证的依据。
-response: 根据中医的诊断方法，患者患有胸痹心痛，中医证型属于气虚血瘀证。综合脉证，四诊合参，本病当属祖国医学“胸痹心痛病”范畴，证属“气虚血瘀”。患者素体虚弱，久病伤正，伤及心气，心气衰微，机能不健，致阴邪易于上乘阳位，况心脉为宗气之所，百脉朝会之枢，宗气的鼓动形成了心气推动血液运行全身，心气不足则血行无力瘀滞，发为本病，舌脉俱为佐证。
-history: [['你好，你是谁？', '你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？'], ['下面是一名患者的基本情况。年龄：78岁，性别：女。主 诉：活动后胸痛一周。现病史：患者一周前活动后出现胸口隐隐作痛，如针刺样乏力气短，活动后汗出，偏头痛。中医望闻切诊：表情自然，面色红润，形体正常,语气清,气息平；无异常气味,舌暗红，苔少。请你根据上述患者的主诉、病史和中医望闻切诊情况，判断该患者的主要中医疾病和中医证型，并给出中医辨病辨证的依据。', '根据中医的诊断方法，患者患有胸痹心痛，中医证型属于气虚血瘀证。综合脉证，四诊合参，本病当属祖国医学“胸痹心痛病”范畴，证属“气虚血瘀”。患者素体虚弱，久病伤正，伤及心气，心气衰微，机能不健，致阴邪易于上乘阳位，况心脉为宗气之所，百脉朝会之枢，宗气的鼓动形成了心气推动血液运行全身，心气不足则血行无力瘀滞，发为本病，舌脉俱为佐证。']]
-```
-
-#### 推理方式2-部署API
-
-使用以下命令部署API：
+Use the following command to deploy the API:
 
 ```shell
 CUDA_VISIBLE_DEVICES=0 swift deploy --model_type qwen2_5-7b-instruct --model_id_or_path QLU-NLP/BianCang-Qwen2.5-7B-Instruct --port 8090 --template_type qwen
 ```
 
-使用curl进行测试：
+Test using curl:
 
 ```shell
 curl http://localhost:8090/v1/chat/completions \
@@ -137,18 +127,7 @@ curl http://localhost:8090/v1/chat/completions \
 }'
 ```
 
-响应如下：
-
-```json
-{"model":"qwen2_5-7b-instruct",
-"choices":[{"index":0,"message":{"role":"assistant","content":"你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？",
-"tool_calls":null},"finish_reason":null,"logprobs":null}],
-"usage":{"prompt_tokens":24,"completion_tokens":92,"total_tokens":116},
-"id":"chatcmpl-6b4a02dee57a42238b27b5c40085df16",
-"object":"chat.completion","created":1730209011}
-```
-
-使用代码进行测试：
+Test using code:
 
 ```python
 from swift.llm import get_model_list_client, XRequestConfig, inference_client
@@ -175,19 +154,9 @@ for chunk in stream_resp:
 print()
 ```
 
-输出如下：
+### Using Transformers
 
-```
-model_type: qwen2_5-7b-instruct
-query: 你好，你是谁？
-response: 你好！我是一个名为扁仓中医大模型的人工智能，由齐鲁工业大学（山东省科学院）计算机科学与技术学部（国家超级计算济南中心）自然语言处理与认知计算团队研发。我被设计成能够理解和生成自然语言文本，以便与人类进行中医辩证、中医处方推荐、中医知识问答、中医问题咨询等方面的对话交流，辅助人们完成疾病诊断相关的任务。请问有什么我可以帮助您的吗？
-query: 下面是一名患者的基本情况。年龄：78岁，性别：女。主 诉：活动后胸痛一周。现病史：患者一周前活动后出现胸口隐隐作痛，如针刺样乏力气短，活动后汗出，偏头痛。中医望闻切诊：表情自然，面色红润，形体正常,语气清,气息平；无异常气味,舌暗红，苔少。请你根据上述患者的主诉、病史和中医望闻切诊情况，判断该患者的主要中医疾病和中医证型，并给出中医辨病辨证的依据。
-response: 根据中医的诊断方法，患者患有胸痹心痛，中医证型属于气虚血瘀证。综合脉证，四诊合参，本病当属祖国医学“胸痹心痛病”范畴，证属“气虚血瘀”。患者素体虚弱，久病伤正，伤及心气，心气衰微，机能不健，致阴邪易于上乘阳位，况心脉为宗气之所，百脉朝会之枢，宗气的鼓动形成了心气推动血液运行全身，心气不足则血行无力瘀滞，发为本病，舌脉俱为佐证。
-```
-
-### 使用Transformers
-
-你也可以使用transformers包进行推理：
+You can also use the transformers package for inference:
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -226,23 +195,23 @@ print(response)
 
 ```
 
-### 使用Web UI
+### Using Web UI
 
-我们提供了一个简单的演示Web UI。
+We provide a simple demo Web UI.
 
-安装streamlit：
+Install streamlit:
 
 ```shell
 pip install streamlit
 ```
 
-使用SWIFT部署API：
+Deploy API using SWIFT:
 
 ```shell
 CUDA_VISIBLE_DEVICES=0 swift deploy --model_type qwen2_5-7b-instruct --model_id_or_path QLU-NLP/BianCang-Qwen2.5-7B-Instruct --port 8090 --template_type qwen
 ```
 
-启动streamlit：
+Start streamlit:
 
 ```shell
 streamlit run web_ui.py
@@ -250,7 +219,7 @@ streamlit run web_ui.py
 
 ![image-20241029215908096](assets/webui.png)
 
-## 🥇中医能力测试
+## 🥇TCM Capability Testing
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
@@ -442,11 +411,11 @@ streamlit run web_ui.py
 </table>
 
 
-更多测评结果请关注我们的技术报告。
+For more evaluation results, please refer to our technical report.
 
-## 🧡致谢
+## 🧡Acknowledgments
 
-本项目基于开源项目进行开发，在此对相关项目和研究开发人员表示感谢。
+This project is developed based on open-source projects. We would like to thank the developers and researchers of the following projects:
 
 - [Qwen2](https://github.com/vitanova/Qwen2)
 - [Qwen2.5](https://github.com/QwenLM/Qwen2.5)
@@ -462,9 +431,9 @@ streamlit run web_ui.py
 - [APE210k](https://github.com/Chenny0808/ape210k)
 - [Evol-Instruction-66K](https://github.com/Continuum-Labs-HQ/EvolInstruct)
 
-## ❔关于我们
+## ❔About Us
 
-本项目由齐鲁工业大学（山东省科学院）计算学部（国家超级计算济南中心）自然语言处理与认知计算团队、山东~~省~~中医药大学附属医院临床研究中心合作完成。
+This project is a collaboration between the Natural Language Processing and Cognitive Computing team at the School of Computer Science and Technology (National Supercomputing Center in Jinan) of Qilu University of Technology (Shandong Academy of Sciences) and the Clinical Research Center of Shandong University of Traditional Chinese Medicine Affiliated Hospital.
 
 <div align="center">
 <p>
@@ -486,13 +455,13 @@ streamlit run web_ui.py
     </p>   
 </div>
 
-## ❕免责声明
+## ❕Disclaimer
 
-- 本项目相关资源仅供学术研究之用。
-- 扁仓中医大模型作为基于语言模型的智能助手，具有局限性，无法保证所有响应的准确性，其不能代替中医/西医进行医学诊断和给出医学建议。如有需要，请咨询专业医生或前往医院就诊。
-- 由于医疗领域的数据不准确可能造成严重后果，我们强烈建议用户在处理生成的信息时要小心谨慎，并向专家寻求建议。
+- The resources in this project are for academic research purposes only.
+- BianCang as a language model-based intelligent assistant, has limitations and cannot guarantee the accuracy of all responses. It cannot replace TCM/Western medicine for medical diagnosis or provide medical advice. If needed, please consult a professional doctor or visit a hospital.
+- Due to the potential serious consequences of inaccurate medical data, we strongly recommend users to handle generated information with caution and seek advice from experts.
 
-## 📖引用
+## 📖Citation
 
 ```
 @article{Wei2024BianCang,
@@ -503,7 +472,5 @@ streamlit run web_ui.py
 }
 ```
 
-> [!TIP]
->
-> 如果对本项目有任何疑问或建议，欢迎垂询：魏斯博(sibo.wei@foxmail.com)、鹿文鹏(wenpeng.lu@qlu.edu.cn)。
+
 
