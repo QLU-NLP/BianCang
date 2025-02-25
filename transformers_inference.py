@@ -1,6 +1,6 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_name = "QLU-NLP/BianCang-Qwen2.5-7B-Instruct"
+model_name = "BianCang-Qwen2.5-7B-Instruct"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,

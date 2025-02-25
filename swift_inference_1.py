@@ -9,7 +9,7 @@ from swift.utils import seed_everything
 model_type = ModelType.qwen2_5_7b_instruct
 template_type = 'qwen'
 
-model_id_or_path = 'QLU-NLP/BianCang-Qwen2.5-7B-Instruct'
+model_id_or_path = 'BianCang-Qwen2.5-7B-Instruct'
 model, tokenizer = get_model_tokenizer(model_type, model_id_or_path=model_id_or_path, model_kwargs={'device_map': 'auto'})
 model.generation_config.max_new_tokens = 256
 
