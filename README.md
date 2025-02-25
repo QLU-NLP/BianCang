@@ -1,4 +1,4 @@
-# 扁仓中医大模型（BianCang: A Traditional Chinese Medicine Large Language Model）
+# 扁仓中医大模型
 
 <div align="center">
     <p>
