@@ -5,7 +5,9 @@
     <img src="assets/BianCang-logo.png" width="500px"/>
     </p>
     </div>
-
+<div align="center">
+  🌐<a href="README.md">zh</a> | <a href="README-en.md">en</a>
+</div>
 
 ## 🎉新闻
 
