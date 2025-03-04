@@ -6,7 +6,7 @@
     </p>
     </div>
 <div align="center">
-  🌐<a href="README.md">zh</a> | <a href="README-en.md">en</a>
+  🌐<a href="README.md">中文</a> | <a href="README-en.md">English</a>
 </div>
 
 ## 🎉News
@@ -36,7 +36,7 @@ In this repository, we open-source the following resources:
 
 You can download BianCang's model weights from Huggingface:
 
-| 模型                         | 基座                | 链接                                                         |
+| Model                         | Base                | Link                                                         |
 | ---------------------------- | ------------------- | ------------------------------------------------------------ |
 | BianCang-Qwen2-7B            | Qwen2-7B            | [anonymous] |
 | BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [anonymous] |
@@ -45,7 +45,7 @@ You can download BianCang's model weights from Huggingface:
 
 You can also download BianCang's model weights from ModelScope:
 
-| 模型                         | 基座                | 链接                                                         |
+| Model                         | Base                | Link                                                         |
 | ---------------------------- | ------------------- | ------------------------------------------------------------ |
 | BianCang-Qwen2-7B            | Qwen2-7B            | [anonymous] |
 | BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [anonymous] |
