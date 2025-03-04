@@ -6,7 +6,7 @@
     </p>
     </div>
 <div align="center">
-  🌐<a href="README.md">zh</a> | <a href="README-en.md">en</a>
+  🌐<a href="README.md">中文</a> | <a href="README-en.md">English</a>
 </div>
 
 ## 🎉新闻
