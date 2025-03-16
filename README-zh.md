@@ -12,7 +12,7 @@
 
 ## 🎉新闻
 
-- [16/03/2025] 我们增加了DeepSeek-V3和DeepSeek-R1的实验结果。
+- [16/03/2025] 我们增加了BianCang与DeepSeek-V3和DeepSeek-R1进行比较的实验结果。
 - [11/18/2024] 我们在该仓库发布了扁仓系列模型，包括BianCang-Qwen2-7B、BianCang-Qwen2-7B-Instruct、BianCang-Qwen2.5-7B、BianCang-Qwen2.5-7B-Instruct。
 - [11/18/2024] 我们公开了ChP-TCM数据集。
 

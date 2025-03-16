@@ -12,7 +12,7 @@
 
 ## 🎉News
 
-- [16/03/2025] We have added the experimental results for DeepSeek-V3 and DeepSeek-R1.
+- [16/03/2025] We have added experimental results comparing BianCang with DeepSeek-V3 and DeepSeek-R1.
 - [11/18/2024] We released the BianCang series models in this repository, including BianCang-Qwen2-7B, BianCang-Qwen2-7B-Instruct, BianCang-Qwen2.5-7B, and BianCang-Qwen2.5-7B-Instruct.
 - [11/18/2024] We made the ChP-TCM dataset publicly available.
 
