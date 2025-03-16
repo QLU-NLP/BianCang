@@ -274,6 +274,8 @@ streamlit run web_ui.py
   </thead>
   <tbody align="center" valign="center">
     <tr><td>GPT-4</td><td>24.53</td><td>45.21</td><td>16.67</td><td>70.73</td><td>27.83</td><td>54.54</td><td>41.80</td><td>68.33</td><td>74.70</td><td>76.35</td><td>76.26</td><td>76.37</td></tr>
+<tr><td>DeepSeek-V3</td><td>34.62</td><td>40.74</td><td>24.53</td><td>72.00</td><td>46.97</td><td>59.08</td><td>82.67</td><td>72.93</td><td>84.97</td><td>88.56</td><td>85.05</td><td>87.81</td></tr>
+ <tr><td>DeepSeek-R1</td><td>37.17</td><td>55.67</td><td>25.53</td><td>76.07</td><td>50.66</td><td>80.75</td><td>79.27</td><td>94.53</td><td>92.68</td><td>93.10</td><td>90.92</td><td>90.77</td></tr>
     <tr><td>Qwen2-7B</td><td>31.74</td><td>27.18</td><td>32.73</td><td>28.40</td><td>41.60</td><td>54.59</td><td>74.87</td><td>77.93</td><td>86.01</td><td>89.18</td><td>84.45</td><td>87.89</td></tr>
     <tr><td>Qwen2-7B-Instruct</td><td>25.70</td><td>33.41</td><td>14.27</td><td>57.00</td><td>32.87</td><td>52.92</td><td>60.40</td><td>60.13</td><td>83.61</td><td>84.22</td><td>79.89</td><td>82.99</td></tr>
     <tr><td>Qwen2.5-7B</td><td>30.44</td><td>21.29</td><td>17.87</td><td>35.73</td><td>23.71</td><td>43.88</td><td>63.87</td><td>71.27</td><td>83.32</td><td>85.52</td><td>82.02</td><td>84.04</td></tr>
@@ -318,6 +320,26 @@ streamlit run web_ui.py
     <td>82.58</td>
     <td>72.97</td>
     <td>75.43</td>
+  </tr>
+  <tr>
+    <td>DeepSeek-V3</td>
+    <td>82.33</td>
+    <td>86.83</td>
+    <td>89.41</td>
+    <td>85.38</td>
+    <td>87.59</td>
+    <td>79.09</td>
+    <td>81.97</td>
+  </tr>
+   <tr>
+    <td>DeepSeek-R1</td>
+    <td>86.38</td>
+    <td>92.51</td>
+    <td>92.36</td>
+    <td>91.42</td>
+    <td>90.40</td>
+    <td>87.03</td>
+    <td>86.16</td>
   </tr>
   <tr>
     <td>Qwen2-7B</td>
@@ -440,6 +462,7 @@ streamlit run web_ui.py
     <td><b>90.51</b></td>
   </tr>
 </table>
+
 
 
 更多测评结果请关注我们的技术报告。
