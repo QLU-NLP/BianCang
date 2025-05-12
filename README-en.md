@@ -19,10 +19,11 @@
 - [11/18/2024] We made the ChP-TCM dataset publicly available.
 - [11/18/2024] We published the BianCang technical report. BianCang has achieved state-of-the-art results in the field of Traditional Chinese Medicine.
 - [10/28/2024] On October 28th, the "Supercomputing, Intelligent Creation of the Future" Top Scientists Forum was held in Jinan, Shandong. During the conference, six academicians, including Daxiang Liu, Runsheng Chen, Hongke Zhang, Juncheng Wang, Jinde Cao, and Qinxi Dong, jointly released a series of large language models from the National Supercomputing Center in Jinan, including the "BianCang Traditional Chinese Medicine Large Language Model". Detailed reports were covered by Shandong News, Dazhong Daily, Jinan Daily, and Jinan News.
+- [12/05/2025] We open-sourced the BianCang-Qwen2.5-14B and BianCang-Qwen2.5-14B-Instruct models.
 
 ## 📅Future Plans
 
-- [ ] Open-source BianCang-Qwen2.5-14B and BianCang-Qwen2.5-14B-Instruct.
+- [ ] BianCang reasoning model
 
 ## 💡Introduction
 
@@ -34,29 +35,33 @@ BianCang is based on Qwen2/2.5 and is developed using a two-stage training metho
 
 In this repository, we open-source the following resources:
 
-- BianCang base model weights: including BianCang-Qwen2-7B and BianCang-Qwen2.5-7B.
-- BianCang instruction-tuned model weights: including BianCang-Qwen2-7B-Instruct and BianCang-Qwen2.5-7B-Instruct.
+- BianCang base model weights: including BianCang-Qwen2-7B, BianCang-Qwen2.5-7B and BianCang-Qwen2.5-14B.
+- BianCang instruction-tuned model weights: including BianCang-Qwen2-7B-Instruct, BianCang-Qwen2.5-7B-Instruct and BianCang-Qwen2.5-14B-Instruct.
 
 
 ## 🤖Models
 
 You can download BianCang's model weights from Huggingface:
 
-| Model                        | Base                | Link                                                         |
-| ---------------------------- | ------------------- | ------------------------------------------------------------ |
-| BianCang-Qwen2-7B            | Qwen2-7B            | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)       |
-| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct) |
-| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)     |
-| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) |
+| Model                         | Base                 | Link                                                         |
+| ----------------------------- | -------------------- | ------------------------------------------------------------ |
+| BianCang-Qwen2-7B             | Qwen2-7B             | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)       |
+| BianCang-Qwen2-7B-Instruct    | BianCang-Qwen2-7B    | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct) |
+| BianCang-Qwen2.5-7B           | Qwen2.5-7B           | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)     |
+| BianCang-Qwen2.5-7B-Instruct  | BianCang-Qwen2.5-7B  | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) |
+| BianCang-Qwen2.5-14B          | Qwen2.5-14B          | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-14B)    |
+| BianCang-Qwen2.5-14B-Instruct | BianCang-Qwen2.5-14B | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-14B-Instruct) |
 
 You can also download BianCang's model weights from ModelScope:
 
-| Model                        | Base                | Link                                                         |
-| ---------------------------- | ------------------- | ------------------------------------------------------------ |
-| BianCang-Qwen2-7B            | Qwen2-7B            | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
-| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2-7B-Instruct) |
-| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
-| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B-Instruct) |
+| Model                         | Base                 | Link                                                         |
+| ----------------------------- | -------------------- | ------------------------------------------------------------ |
+| BianCang-Qwen2-7B             | Qwen2-7B             | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
+| BianCang-Qwen2-7B-Instruct    | BianCang-Qwen2-7B    | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2-7B-Instruct) |
+| BianCang-Qwen2.5-7B           | Qwen2.5-7B           | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
+| BianCang-Qwen2.5-7B-Instruct  | BianCang-Qwen2.5-7B  | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B-Instruct) |
+| BianCang-Qwen2.5-14B          | Qwen2.5-14B          | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-14B) |
+| BianCang-Qwen2.5-14B-Instruct | BianCang-Qwen2.5-14B | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-14B-Instruct) |
 
 ## 🚀Inference
 

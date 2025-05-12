@@ -18,10 +18,11 @@
 - [11/18/2024] 我们公开了ChP-TCM数据集。
 - [11/18/2024] 我们发布了扁仓论文。扁仓在中医领域取得了当前最先进的结果。
 - [10/28/2024] 10月28日，“[超级计算 智创未来](https://mp.weixin.qq.com/s/vN-FbmvksRT79Ci9p3RTLg)”顶尖科学家论坛在山东济南举行。会议期间，刘大响、陈润生、张宏科、王军成、曹进德、董勤喜六位院士共同登台发布国家超算济南中心系列大模型，其中包括“扁仓中医大模型”。山东新闻联播、大众日报、济南日报、济南新闻联播等媒体进行了详细报道。
+- [12/05/2025] 我们开源了BianCang-Qwen2.5-14B和BianCang-Qwen2.5-14B-Instruct模型。
 
-## 📅未来规划
+## 📅未来计划
 
-- [ ] 开源BianCang-Qwen2.5-14B、BianCang-Qwen2.5-14B-Instruct。
+- [ ] 扁仓推理模型
 
 ## 💡介绍
 
@@ -33,30 +34,34 @@
 
 我们在该仓库中开源以下资源：
 
-- 扁仓基座模型权重：包括BianCang-Qwen2-7B、BianCang-Qwen2.5-7B。
+- 扁仓基座模型权重：包括BianCang-Qwen2-7B、BianCang-Qwen2.5-7B、BianCang-Qwen2.5-14B。
 
-- 扁仓指令精调模型权重：包括BianCang-Qwen2-7B-Instruct、BianCang-Qwen2.5-7B-Instruct。
+- 扁仓指令精调模型权重：包括BianCang-Qwen2-7B-Instruct、BianCang-Qwen2.5-7B-Instruct、BianCang-Qwen2.5-14B-Instruct。
 
 
 ## 🤖模型
 
 你可以在Huggingface上下载扁仓的模型权重：
 
-| 模型                         | 基座                | 链接                                                         |
-| ---------------------------- | ------------------- | ------------------------------------------------------------ |
-| BianCang-Qwen2-7B            | Qwen2-7B            | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)       |
-| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct) |
-| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)     |
-| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) |
+| 模型                          | 基座                 | 链接                                                         |
+| ----------------------------- | -------------------- | ------------------------------------------------------------ |
+| BianCang-Qwen2-7B             | Qwen2-7B             | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B)       |
+| BianCang-Qwen2-7B-Instruct    | BianCang-Qwen2-7B    | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2-7B-Instruct) |
+| BianCang-Qwen2.5-7B           | Qwen2.5-7B           | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B)     |
+| BianCang-Qwen2.5-7B-Instruct  | BianCang-Qwen2.5-7B  | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-7B-Instruct) |
+| BianCang-Qwen2.5-14B          | Qwen2.5-14B          | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-14B)    |
+| BianCang-Qwen2.5-14B-Instruct | BianCang-Qwen2.5-14B | [HF](https://huggingface.co/QLU-NLP/BianCang-Qwen2.5-14B-Instruct) |
 
 也可以在ModelScope上下载扁仓的模型权重，这对国内网络更友好：
 
-| 模型                         | 基座                | 链接                                                         |
-| ---------------------------- | ------------------- | ------------------------------------------------------------ |
-| BianCang-Qwen2-7B            | Qwen2-7B            | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
-| BianCang-Qwen2-7B-Instruct   | BianCang-Qwen2-7B   | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2-7B-Instruct) |
-| BianCang-Qwen2.5-7B          | Qwen2.5-7B          | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
-| BianCang-Qwen2.5-7B-Instruct | BianCang-Qwen2.5-7B | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B-Instruct) |
+| 模型                          | 基座                 | 链接                                                         |
+| ----------------------------- | -------------------- | ------------------------------------------------------------ |
+| BianCang-Qwen2-7B             | Qwen2-7B             | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
+| BianCang-Qwen2-7B-Instruct    | BianCang-Qwen2-7B    | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2-7B-Instruct) |
+| BianCang-Qwen2.5-7B           | Qwen2.5-7B           | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B) |
+| BianCang-Qwen2.5-7B-Instruct  | BianCang-Qwen2.5-7B  | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-7B-Instruct) |
+| BianCang-Qwen2.5-14B          | Qwen2.5-14B          | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-14B) |
+| BianCang-Qwen2.5-14B-Instruct | BianCang-Qwen2.5-14B | [MS](https://www.modelscope.cn/models/QLUNLP/BianCang-Qwen2.5-14B-Instruct) |
 
 ## 🚀推理
 
